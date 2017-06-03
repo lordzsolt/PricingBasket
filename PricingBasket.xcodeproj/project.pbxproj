@@ -17,6 +17,28 @@
 		0F3A948C1EE2E83F005F46E4 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A948B1EE2E83F005F46E4 /* RootCoordinator.swift */; };
 		0F3A948E1EE2E895005F46E4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A948D1EE2E895005F46E4 /* Coordinator.swift */; };
 		0F3A94911EE2E8FD005F46E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A94901EE2E8FD005F46E4 /* MainViewController.swift */; };
+		0F3A949B1EE341A8005F46E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A949A1EE341A8005F46E4 /* Constants.swift */; };
+		0F3A949D1EE37541005F46E4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A949C1EE37541005F46E4 /* Currency.swift */; };
+		0F3A94A01EE387FE005F46E4 /* PricingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A949F1EE387FE005F46E4 /* PricingService.swift */; };
+		0F3A94A31EE388A5005F46E4 /* PricingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A94A21EE388A5005F46E4 /* PricingServiceTests.swift */; };
+		0F3A94A51EE390C7005F46E4 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A94A41EE390C7005F46E4 /* MainViewModel.swift */; };
+		0F3A94A81EE3975F005F46E4 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A94A71EE3975F005F46E4 /* ProductService.swift */; };
+		0F3A94AA1EE39886005F46E4 /* ProductServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A94A91EE39886005F46E4 /* ProductServiceConstants.swift */; };
+		0F3A94AD1EE39B0F005F46E4 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A94AC1EE39B0F005F46E4 /* ProductTableViewCell.swift */; };
+		0F3A94B01EE39B3B005F46E4 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A94AF1EE39B3B005F46E4 /* Reusable.swift */; };
+		0F3A94B21EE3A07D005F46E4 /* ProductCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A94B11EE3A07D005F46E4 /* ProductCellViewModel.swift */; };
+		0FE74CEB1EE43132008C9EF3 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE74CEA1EE43132008C9EF3 /* Strings.swift */; };
+		0FE74CEE1EE44882008C9EF3 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE74CED1EE44882008C9EF3 /* DetailViewModel.swift */; };
+		0FE74CF01EE4488D008C9EF3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE74CEF1EE4488D008C9EF3 /* DetailViewController.swift */; };
+		0FE74CF51EE48C5C008C9EF3 /* CurrencyLayerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE74CF21EE48C5C008C9EF3 /* CurrencyLayerConstants.swift */; };
+		0FE74CF61EE48C5C008C9EF3 /* CurrencyLayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE74CF31EE48C5C008C9EF3 /* CurrencyLayerService.swift */; };
+		0FE74CF71EE48C5C008C9EF3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE74CF41EE48C5C008C9EF3 /* Response.swift */; };
+		0FE74CF91EE48C68008C9EF3 /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE74CF81EE48C68008C9EF3 /* CurrencyService.swift */; };
+		0FF0126C1EE59442004B88EF /* ReachabilityNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF0126B1EE59442004B88EF /* ReachabilityNavigationController.swift */; };
+		0FF0126E1EE59450004B88EF /* FooterErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF0126D1EE59450004B88EF /* FooterErrorView.swift */; };
+		0FF012711EE5D095004B88EF /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF012701EE5D095004B88EF /* CurrencyTextField.swift */; };
+		45C1E8799BC96C7E7470698E /* Pods_PricingBasket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A5AB03BAC46AE830D67195 /* Pods_PricingBasket.framework */; };
+		A2DB78488058FF860FEBFB49 /* Pods_PricingBasketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE49DD94B2F839666974F2 /* Pods_PricingBasketTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E8863A7C16D8462E2892115 /* Pods-PricingBasketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PricingBasketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PricingBasketTests/Pods-PricingBasketTests.release.xcconfig"; sourceTree = "<group>"; };
 		0F3A94521EE2D31E005F46E4 /* PricingBasket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PricingBasket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3A945F1EE2D31F005F46E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3A94661EE2D31F005F46E4 /* PricingBasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PricingBasketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +67,31 @@
 		0F3A948B1EE2E83F005F46E4 /* RootCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
 		0F3A948D1EE2E895005F46E4 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0F3A94901EE2E8FD005F46E4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0F3A949A1EE341A8005F46E4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0F3A949C1EE37541005F46E4 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		0F3A949F1EE387FE005F46E4 /* PricingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PricingService.swift; sourceTree = "<group>"; };
+		0F3A94A21EE388A5005F46E4 /* PricingServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PricingServiceTests.swift; sourceTree = "<group>"; };
+		0F3A94A41EE390C7005F46E4 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0F3A94A71EE3975F005F46E4 /* ProductService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		0F3A94A91EE39886005F46E4 /* ProductServiceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductServiceConstants.swift; sourceTree = "<group>"; };
+		0F3A94AC1EE39B0F005F46E4 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		0F3A94AF1EE39B3B005F46E4 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		0F3A94B11EE3A07D005F46E4 /* ProductCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCellViewModel.swift; sourceTree = "<group>"; };
+		0FE74CEA1EE43132008C9EF3 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		0FE74CED1EE44882008C9EF3 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		0FE74CEF1EE4488D008C9EF3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0FE74CF21EE48C5C008C9EF3 /* CurrencyLayerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyLayerConstants.swift; sourceTree = "<group>"; };
+		0FE74CF31EE48C5C008C9EF3 /* CurrencyLayerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyLayerService.swift; sourceTree = "<group>"; };
+		0FE74CF41EE48C5C008C9EF3 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		0FE74CF81EE48C68008C9EF3 /* CurrencyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
+		0FF0126B1EE59442004B88EF /* ReachabilityNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityNavigationController.swift; sourceTree = "<group>"; };
+		0FF0126D1EE59450004B88EF /* FooterErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterErrorView.swift; sourceTree = "<group>"; };
+		0FF012701EE5D095004B88EF /* CurrencyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		356D79694AA608F3640AF680 /* Pods-PricingBasket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PricingBasket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PricingBasket/Pods-PricingBasket.debug.xcconfig"; sourceTree = "<group>"; };
+		36C728B37887437E2EF5976E /* Pods-PricingBasketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PricingBasketTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PricingBasketTests/Pods-PricingBasketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A5AB03BAC46AE830D67195 /* Pods_PricingBasket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PricingBasket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BE49DD94B2F839666974F2 /* Pods_PricingBasketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PricingBasketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2982A4FAE1916510EF3ACF /* Pods-PricingBasket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PricingBasket.release.xcconfig"; path = "Pods/Target Support Files/Pods-PricingBasket/Pods-PricingBasket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C1E8799BC96C7E7470698E /* Pods_PricingBasket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DB78488058FF860FEBFB49 /* Pods_PricingBasketTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +120,8 @@
 				0F3A94541EE2D31F005F46E4 /* PricingBasket */,
 				0F3A94691EE2D31F005F46E4 /* PricingBasketTests */,
 				0F3A94531EE2D31E005F46E4 /* Products */,
+				1F38615A22C8B87DD92E14C0 /* Pods */,
+				E2BE95BFF7B74782B2FBCBF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				0F3A94751EE2D4FB005F46E4 /* Classes */,
+				0F3A94991EE34197005F46E4 /* Constants */,
 				0F3A94811EE2D514005F46E4 /* Resources */,
 				0F3A947E1EE2D509005F46E4 /* Supporting Files */,
 				0F3A945E1EE2D31F005F46E4 /* LaunchScreen.storyboard */,
@@ -97,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0F3A94881EE2E5E8005F46E4 /* Models */,
+				0F3A94A11EE38871005F46E4 /* Services */,
 				0F3A946A1EE2D31F005F46E4 /* PricingBasketTests.swift */,
 				0F3A946C1EE2D31F005F46E4 /* Info.plist */,
 			);
@@ -112,6 +166,7 @@
 				0F3A947A1EE2D4FB005F46E4 /* Models */,
 				0F3A947B1EE2D4FB005F46E4 /* Scenes */,
 				0F3A947C1EE2D4FB005F46E4 /* Services */,
+				0F3A94AE1EE39B30005F46E4 /* Utilities */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -119,8 +174,8 @@
 		0F3A94761EE2D4FB005F46E4 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				0F3A948B1EE2E83F005F46E4 /* RootCoordinator.swift */,
 				0F3A948D1EE2E895005F46E4 /* Coordinator.swift */,
+				0F3A948B1EE2E83F005F46E4 /* RootCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -128,6 +183,8 @@
 		0F3A94771EE2D4FB005F46E4 /* Custom Components */ = {
 			isa = PBXGroup;
 			children = (
+				0FF0126F1EE5D088004B88EF /* CurrencyTextField */,
+				0FF0126A1EE59442004B88EF /* ReachabilityNavigationController */,
 			);
 			path = "Custom Components";
 			sourceTree = "<group>";
@@ -143,8 +200,9 @@
 		0F3A947A1EE2D4FB005F46E4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0F3A94841EE2D5C2005F46E4 /* Product.swift */,
 				0F3A94861EE2D72B005F46E4 /* Cart.swift */,
+				0F3A949C1EE37541005F46E4 /* Currency.swift */,
+				0F3A94841EE2D5C2005F46E4 /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +210,7 @@
 		0F3A947B1EE2D4FB005F46E4 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				0FE74CEC1EE44876008C9EF3 /* DetailScene */,
 				0F3A948F1EE2E8F0005F46E4 /* MainScene */,
 			);
 			path = Scenes;
@@ -160,6 +219,9 @@
 		0F3A947C1EE2D4FB005F46E4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				0FE74CF11EE48C5C008C9EF3 /* CurrencyService */,
+				0F3A949E1EE387EF005F46E4 /* PricingService */,
+				0F3A94A61EE39750005F46E4 /* ProductService */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -191,9 +253,119 @@
 		0F3A948F1EE2E8F0005F46E4 /* MainScene */ = {
 			isa = PBXGroup;
 			children = (
+				0F3A94AB1EE39AFC005F46E4 /* ProductCell */,
+				0F3A94A41EE390C7005F46E4 /* MainViewModel.swift */,
 				0F3A94901EE2E8FD005F46E4 /* MainViewController.swift */,
 			);
 			path = MainScene;
+			sourceTree = "<group>";
+		};
+		0F3A94991EE34197005F46E4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A949A1EE341A8005F46E4 /* Constants.swift */,
+				0FE74CEA1EE43132008C9EF3 /* Strings.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0F3A949E1EE387EF005F46E4 /* PricingService */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A949F1EE387FE005F46E4 /* PricingService.swift */,
+			);
+			path = PricingService;
+			sourceTree = "<group>";
+		};
+		0F3A94A11EE38871005F46E4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A94A21EE388A5005F46E4 /* PricingServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0F3A94A61EE39750005F46E4 /* ProductService */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A94A71EE3975F005F46E4 /* ProductService.swift */,
+				0F3A94A91EE39886005F46E4 /* ProductServiceConstants.swift */,
+			);
+			path = ProductService;
+			sourceTree = "<group>";
+		};
+		0F3A94AB1EE39AFC005F46E4 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A94AC1EE39B0F005F46E4 /* ProductTableViewCell.swift */,
+				0F3A94B11EE3A07D005F46E4 /* ProductCellViewModel.swift */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		0F3A94AE1EE39B30005F46E4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A94AF1EE39B3B005F46E4 /* Reusable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0FE74CEC1EE44876008C9EF3 /* DetailScene */ = {
+			isa = PBXGroup;
+			children = (
+				0FE74CED1EE44882008C9EF3 /* DetailViewModel.swift */,
+				0FE74CEF1EE4488D008C9EF3 /* DetailViewController.swift */,
+			);
+			path = DetailScene;
+			sourceTree = "<group>";
+		};
+		0FE74CF11EE48C5C008C9EF3 /* CurrencyService */ = {
+			isa = PBXGroup;
+			children = (
+				0FE74CF81EE48C68008C9EF3 /* CurrencyService.swift */,
+				0FE74CF21EE48C5C008C9EF3 /* CurrencyLayerConstants.swift */,
+				0FE74CF31EE48C5C008C9EF3 /* CurrencyLayerService.swift */,
+				0FE74CF41EE48C5C008C9EF3 /* Response.swift */,
+			);
+			path = CurrencyService;
+			sourceTree = "<group>";
+		};
+		0FF0126A1EE59442004B88EF /* ReachabilityNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0FF0126B1EE59442004B88EF /* ReachabilityNavigationController.swift */,
+				0FF0126D1EE59450004B88EF /* FooterErrorView.swift */,
+			);
+			path = ReachabilityNavigationController;
+			sourceTree = "<group>";
+		};
+		0FF0126F1EE5D088004B88EF /* CurrencyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0FF012701EE5D095004B88EF /* CurrencyTextField.swift */,
+			);
+			path = CurrencyTextField;
+			sourceTree = "<group>";
+		};
+		1F38615A22C8B87DD92E14C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				356D79694AA608F3640AF680 /* Pods-PricingBasket.debug.xcconfig */,
+				DE2982A4FAE1916510EF3ACF /* Pods-PricingBasket.release.xcconfig */,
+				36C728B37887437E2EF5976E /* Pods-PricingBasketTests.debug.xcconfig */,
+				0E8863A7C16D8462E2892115 /* Pods-PricingBasketTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2BE95BFF7B74782B2FBCBF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A5AB03BAC46AE830D67195 /* Pods_PricingBasket.framework */,
+				B2BE49DD94B2F839666974F2 /* Pods_PricingBasketTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,9 +375,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F3A946F1EE2D31F005F46E4 /* Build configuration list for PBXNativeTarget "PricingBasket" */;
 			buildPhases = (
+				A728C29D7E19BE1227486734 /* [CP] Check Pods Manifest.lock */,
 				0F3A944E1EE2D31E005F46E4 /* Sources */,
 				0F3A944F1EE2D31E005F46E4 /* Frameworks */,
 				0F3A94501EE2D31E005F46E4 /* Resources */,
+				C622C1FD37F46E48185BC849 /* [CP] Embed Pods Frameworks */,
+				CF0A47765C559C2A3A8974C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,9 +395,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F3A94721EE2D31F005F46E4 /* Build configuration list for PBXNativeTarget "PricingBasketTests" */;
 			buildPhases = (
+				66F397B8722F3F47815E4950 /* [CP] Check Pods Manifest.lock */,
 				0F3A94621EE2D31F005F46E4 /* Sources */,
 				0F3A94631EE2D31F005F46E4 /* Frameworks */,
 				0F3A94641EE2D31F005F46E4 /* Resources */,
+				F90E38697E9B65F0B9AE6270 /* [CP] Embed Pods Frameworks */,
+				FF0D82134C1E10B7EDCA06B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,14 +473,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66F397B8722F3F47815E4950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A728C29D7E19BE1227486734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C622C1FD37F46E48185BC849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PricingBasket/Pods-PricingBasket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF0A47765C559C2A3A8974C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PricingBasket/Pods-PricingBasket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90E38697E9B65F0B9AE6270 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PricingBasketTests/Pods-PricingBasketTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0D82134C1E10B7EDCA06B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PricingBasketTests/Pods-PricingBasketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F3A944E1EE2D31E005F46E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3A94B01EE39B3B005F46E4 /* Reusable.swift in Sources */,
+				0F3A94AA1EE39886005F46E4 /* ProductServiceConstants.swift in Sources */,
 				0F3A948C1EE2E83F005F46E4 /* RootCoordinator.swift in Sources */,
+				0FE74CEE1EE44882008C9EF3 /* DetailViewModel.swift in Sources */,
 				0F3A947D1EE2D4FB005F46E4 /* AppDelegate.swift in Sources */,
+				0FE74CF01EE4488D008C9EF3 /* DetailViewController.swift in Sources */,
+				0FE74CF61EE48C5C008C9EF3 /* CurrencyLayerService.swift in Sources */,
+				0FF0126C1EE59442004B88EF /* ReachabilityNavigationController.swift in Sources */,
+				0FE74CEB1EE43132008C9EF3 /* Strings.swift in Sources */,
 				0F3A948E1EE2E895005F46E4 /* Coordinator.swift in Sources */,
+				0F3A94A01EE387FE005F46E4 /* PricingService.swift in Sources */,
+				0F3A94A81EE3975F005F46E4 /* ProductService.swift in Sources */,
+				0FE74CF51EE48C5C008C9EF3 /* CurrencyLayerConstants.swift in Sources */,
+				0FF012711EE5D095004B88EF /* CurrencyTextField.swift in Sources */,
+				0F3A94A51EE390C7005F46E4 /* MainViewModel.swift in Sources */,
+				0FE74CF71EE48C5C008C9EF3 /* Response.swift in Sources */,
+				0F3A94B21EE3A07D005F46E4 /* ProductCellViewModel.swift in Sources */,
+				0F3A94AD1EE39B0F005F46E4 /* ProductTableViewCell.swift in Sources */,
+				0FE74CF91EE48C68008C9EF3 /* CurrencyService.swift in Sources */,
+				0F3A949B1EE341A8005F46E4 /* Constants.swift in Sources */,
+				0F3A949D1EE37541005F46E4 /* Currency.swift in Sources */,
+				0FF0126E1EE59450004B88EF /* FooterErrorView.swift in Sources */,
 				0F3A94911EE2E8FD005F46E4 /* MainViewController.swift in Sources */,
 				0F3A94871EE2D72B005F46E4 /* Cart.swift in Sources */,
 				0F3A94851EE2D5C2005F46E4 /* Product.swift in Sources */,
@@ -315,6 +605,7 @@
 			files = (
 				0F3A946B1EE2D31F005F46E4 /* PricingBasketTests.swift in Sources */,
 				0F3A948A1EE2E5F5005F46E4 /* CartTests.swift in Sources */,
+				0F3A94A31EE388A5005F46E4 /* PricingServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +672,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -426,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -437,10 +728,12 @@
 		};
 		0F3A94701EE2D31F005F46E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356D79694AA608F3640AF680 /* Pods-PricingBasket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PCSZP7AA2;
 				INFOPLIST_FILE = "PricingBasket/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosmith.PricingBasket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,10 +743,12 @@
 		};
 		0F3A94711EE2D31F005F46E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2982A4FAE1916510EF3ACF /* Pods-PricingBasket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PCSZP7AA2;
 				INFOPLIST_FILE = "PricingBasket/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosmith.PricingBasket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,6 +758,7 @@
 		};
 		0F3A94731EE2D31F005F46E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C728B37887437E2EF5976E /* Pods-PricingBasketTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +774,7 @@
 		};
 		0F3A94741EE2D31F005F46E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8863A7C16D8462E2892115 /* Pods-PricingBasketTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +807,7 @@
 				0F3A94711EE2D31F005F46E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F3A94721EE2D31F005F46E4 /* Build configuration list for PBXNativeTarget "PricingBasketTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +816,7 @@
 				0F3A94741EE2D31F005F46E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

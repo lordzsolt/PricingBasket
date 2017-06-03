@@ -1,0 +1,18 @@
+PODS:
+  - EasyPeasy (1.4.2)
+  - ReachabilitySwift (3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - EasyPeasy
+  - ReachabilitySwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  EasyPeasy: 50e7130b61f495ce105796e438d4136e2c8d2cc0
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 38aed386c4cfba9e2154af1ddbb78a0587a7063a
+
+COCOAPODS: 1.2.1
