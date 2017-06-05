@@ -1,0 +1,6 @@
+framework module Pods_PricingBasket {
+  umbrella header "Pods-PricingBasket-umbrella.h"
+
+  export *
+  module * { export * }
+}
